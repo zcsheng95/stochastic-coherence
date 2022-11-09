@@ -3,6 +3,19 @@
 ## Plan before midterm
 
 - Quantified learned latent space
-- zs: Modify Encoder to output parameters from z0 and zT
-- tz: Modify Decoder to allow customized trajectories
-- cj: Try extract latent space from existing encoders / Play with Dialo-GPT
+- **ZS**: Modify Encoder to output parameters from z0 and zT
+- **TZ**: Modify Decoder to allow customized trajectories
+- **CJ**: Try extract latent space from existing encoders / Play with Dialo-GPT
+
+
+## Experiments
+# Experiment I
+- Extract lantent space from training set $i.e. \{z_0, z_1, z_2, ..., z_T\}$, and generate lantent space $ \{z'_0, z'_1, z'_2, ..., z'_T \}$ using test set given $z'_0$ and $z'_T$
+- Compare two latent trajectories with true Brownian Bridge and evaluate their similarities
+- Evaluate coherence for training sequence and generated test sequence
+- To see if we can find correlation between the coherence and similarity to Brownian Bridge
+
+# Experiment II
+- Sample artificial trajectories from learned latent space with varying standard deviation (e.g. 0.5$\sigma^2$, 2$\sigma^2$,...)
+- Tune different proportion of the samples to have different standard deviations along the sequence
+- Evaluate how tuning variance can affect the generated text coherence
