@@ -16,6 +16,6 @@
 - To see if we can find correlation between the coherence and similarity to Brownian Bridge
 
 ### Experiment II
-- Sample artificial trajectories from learned latent space with varying standard deviation (e.g. 0.5$\sigma^2$, 2$\sigma^2$,...)
+- Sample artificial trajectories from learned latent space with varying standard deviation (e.g. 0.5 $\sigma^2, 2 \sigma^2, ...$)
 - Tune different proportion of the samples to have different standard deviations along the sequence
 - Evaluate how tuning variance can affect the generated text coherence
