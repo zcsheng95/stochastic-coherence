@@ -1,0 +1,6 @@
+,total length,ordering,[ USER ] present,[ USER ] redundant,[ USER ] length,[ ASSISTANT ] present,[ ASSISTANT ] redundant,[ ASSISTANT ] length
+0,974,False,True,True,20,True,True,85
+1,992,False,True,True,15,True,True,61
+2,1018,False,True,True,20,True,True,71
+3,985,False,True,True,6,True,True,5
+4,986,False,True,True,6,True,True,6
